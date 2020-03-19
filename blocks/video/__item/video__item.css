@@ -1,4 +1,11 @@
 .video__item {
     display: flex;
-    max-width: 45%;
+    flex-direction: column;
+    max-width: 50%;
+    position: relative;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.video__item:first-of-type {
+    margin-right: 16px;
 }

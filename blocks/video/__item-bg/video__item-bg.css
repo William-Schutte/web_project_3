@@ -1,4 +1,7 @@
 .video__item-bg {
-    width: 45%;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+
 }
 

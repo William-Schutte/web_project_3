@@ -1,5 +1,6 @@
 .video__title {
     font-weight: 900;
-    font-size: 4.5rem;
-    text-align: center;
+    font-size: 2rem;
+    text-align: left;
+    position: absolute;
 }
