@@ -1,0 +1,9 @@
+@import url(./_current/header__lang_current.css);
+
+.header__lang {
+    font-family: Inter;
+    font-size: 24px;
+    margin-left: 18px;
+    display: flex;
+}
+

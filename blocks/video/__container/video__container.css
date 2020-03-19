@@ -1,0 +1,6 @@
+.video__container {
+    display: flex;
+    max-width: 1184px;
+    padding: 0 48px;
+    
+}

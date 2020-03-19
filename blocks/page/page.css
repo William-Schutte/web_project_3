@@ -1,0 +1,8 @@
+.page {
+    background-color: #2a2c2f;
+    min-width: 320px;
+    /* max-width: 1440px; */
+    align-items: center;
+    font-family: 'Inter', 'Arial';
+    color: #FFFFFF;
+}

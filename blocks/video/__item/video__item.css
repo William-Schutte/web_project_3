@@ -1,0 +1,4 @@
+.video__item {
+    display: flex;
+    max-width: 45%;
+}
