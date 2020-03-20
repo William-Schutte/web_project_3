@@ -13,6 +13,7 @@
 @import url(../blocks/video/video.css);
 @import url(../blocks/comments/comments.css);
 @import url(../blocks/comment/comment.css);
+@import url(../blocks/cover/cover.css);
 
 em {
     font-weight: bold;
