@@ -5,3 +5,19 @@
     width: 720px;
     margin-bottom: 3rem;
 }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .lead__title {
+        font-size: 3.5rem;
+        line-height: 3.75rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__title {
+        font-size: 2.5rem;
+        line-height: 2.75rem;
+        margin-bottom: 1.25rem;
+    }
+}

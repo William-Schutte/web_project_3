@@ -1,5 +1,5 @@
 @import url(../vendor/reset.css);
-@import url(../fonts/inter/inter.css);
+@import url(../vendor/fonts/inter.css);
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
@@ -14,7 +14,31 @@
 @import url(../blocks/comments/comments.css);
 @import url(../blocks/comment/comment.css);
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
 
 em {
     font-weight: bold;
 }
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Responsive Media Dimensions */
+/*
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 425px) {
+    
+}
+
+*/

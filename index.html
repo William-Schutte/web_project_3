@@ -16,13 +16,13 @@
     <!-- 1st Section - Header -->
     <div class="header">
         <img class="header__logo" src="./images/logo.svg">
-        <p class="header__lang header__lang_current">En</p>
-        <p class="header__lang">Es</p>
+        <a class="header__lang header__lang_current" href="#">En</a>
+        <a class="header__lang" href="#">Es</a>
     </div>
 
     <!-- 2nd Section - Lead -->
     <div class="lead">
-        <h1 class="lead__title">From Portland to Portland</h1>
+        <h1 class="lead__title">From Portland<br/>to Portland</h1>
         <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR.</p>
         <img class="lead__image" src="./images/mountains.jpg" alt="Black and white photo of pacific northwest mountains">
         <p class="lead__caption">Your journey starts here</p>
@@ -32,7 +32,11 @@
     <div class="intro">
         <h2 class="intro__title">Know the country you live in a little better</h2>
         <p class="intro__subtitle">That's exactly what we have arranged for you via this travel story</p>
-        <p class="intro__text">Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave the car at home and travel by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.</p>
+        <p class="intro__text">Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, 
+            Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave the car at home and travel 
+            by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and 
+            accomplish 3 monumental missions. Partying and taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate 
+            polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.</p>
         <p class="intro__text">
             <em>Distance (miles)</em> 3,644<br/>
             <em>Travel time (days)</em> 22<br/>
@@ -142,17 +146,21 @@
         <div class="video__container">
             <div class="video__item">
                 <img class="video__item-bg" src="./images/video-bg-iowa.png" alt="Iowa bike race">
-                <img class="video__icon_play" src="./images/icon_play.svg" alt="Play button">
-                <p class="video__duration">5:27</p>
-                <p class="video__title">RAGBRAI, Iowa</p>
-                <p class="video__subtitle">Author: Ryan Van Duzer</p>
+                <div class="video__item-overlay">
+                    <img class="video__icon_play" src="./images/icon_play.svg" alt="Play button">
+                    <p class="video__duration">5:27</p>
+                    <p class="video__title">RAGBRAI, Iowa</p>
+                    <p class="video__subtitle">Author: Ryan Van Duzer</p>
+                </div>
             </div>
             <div class="video__item">
                 <img class="video__item-bg" src="./images/video-bg-wyoming.png" alt="Old Faithful geyser">
-                <img class="video__icon_play" src="./images/icon_play.svg" alt="Play button">
-                <p class="video__duration">2:36</p>
-                <p class="video__title">Old Faitheful Guyser, Wyoming</p>
-                <p class="video__subtitle">Author: David Ellis</p>
+                <div class="video__item-overlay">
+                    <img class="video__icon_play" src="./images/icon_play.svg" alt="Play button">
+                    <p class="video__duration">2:36</p>
+                    <p class="video__title">Old Faitheful Geyser, Wyoming</p>
+                    <p class="video__subtitle">Author: David Ellis</p>
+                </div>
             </div>
         </div>
     </div>
@@ -186,13 +194,21 @@
     <!-- 8th Section - Cover -->
     <div class="cover">
         <img class="cover__background" src="./images/route-66.jpg" alt="Route 66">
-        <h2 class="cover__title">Historic Route 66</h2>
-        <p class="cover__subtitle">The Main Street of America
-            from Santa Monica, Cal. to Chicago, Ill.
-            within an iframe</p>
+        <div class="cover__overlay">
+            <h2 class="cover__title">Historic Route 66</h2>
+            <p class="cover__subtitle">The Main Street of America <br/>
+                from Santa Monica, Cal. to Chicago, Ill.<br/>
+                within an iframe</p>
+        </div>
     </div>
 
-
     <!-- 9th Section - Footer -->
+<div class="footer">
+    <a class="footer__link" href="#">Maps</a>
+    <a class="footer__link" href="#">Weather</a>
+    <a class="footer__link" href="#">Calendar</a>
+    <p class="footer__copyright">&copy; 2020. William Schutte</p>
+</div>
+
 </body>
 </html>

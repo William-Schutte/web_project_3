@@ -3,9 +3,24 @@
     flex-direction: column;
     max-width: 50%;
     position: relative;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.video__item:first-of-type {
-    margin-right: 16px;
+@media screen and (min-width: 601px) {
+    .video__item:first-of-type {
+        margin-right: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video__item:first-of-type {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video__item {
+        max-width: 100%;
+        /* min-height: 192px; */
+    }
 }

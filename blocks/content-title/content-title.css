@@ -5,3 +5,19 @@
     text-align: center;
     margin-bottom: 40px;
 }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .content-title {
+        font-size: 2.625rem;
+        line-height: 107.6%;
+        margin: 0 24px 40px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .content-title {
+        font-size: 2rem;
+        line-height: 109.4%;
+        margin: 0 16px 32px;
+    }
+}

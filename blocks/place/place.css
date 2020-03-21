@@ -10,3 +10,15 @@
     grid-template-columns: [left] 1fr [right] 1fr;
     grid-template-rows: [top] auto [bottom] auto;
 }
+
+.place:first-of-type {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 425px) {
+    .place {
+        margin-top: 60px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+    }
+}

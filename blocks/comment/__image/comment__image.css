@@ -3,3 +3,10 @@
     border-radius: 97px;
     margin-bottom: 42px;
 }
+
+@media screen and (max-width: 768px) {
+    .comment__image {
+        align-self: center;
+        margin-bottom: 16px;
+    }
+}

@@ -8,3 +8,17 @@
     max-width: 1184px;
     padding: 0 48px;
 }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .comments {
+        margin-top: 116px;
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .comments {
+        margin-top: 77px;
+        padding: 0 16px;
+    }
+}

@@ -1,9 +1,8 @@
 .video__duration {
-    position: absolute;
-    top: 50%;
-    left: 30px;
     display: flex;
     font-weight: 500;
     font-size: 0.75rem;
     letter-spacing: 0.3rem;
+    margin-top: auto;
+    margin-bottom: .75rem;
 }

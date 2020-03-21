@@ -2,12 +2,24 @@
 @import url(./__logo/header__logo.css);
 
 .header {
-    min-height: 36px;
     max-height: 46px;
     max-width: 1184px;
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
     margin: 36px auto 50px;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 0 48px;
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .header {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        padding: 0 16px;
+        height: 36px;
+    }
 }

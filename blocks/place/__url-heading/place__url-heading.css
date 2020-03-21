@@ -8,3 +8,9 @@
     margin-bottom: 60px;
     align-self: end;
 }
+
+@media screen and (max-width: 425px) {
+    .place__url-heading {
+        display: none;
+    }
+}

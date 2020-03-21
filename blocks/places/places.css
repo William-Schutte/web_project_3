@@ -3,3 +3,15 @@
     margin: 0 auto;
     padding: 0 3rem;
 }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .places {
+        padding: 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .places {
+        padding: 0;
+    }
+}

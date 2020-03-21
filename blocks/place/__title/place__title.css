@@ -4,3 +4,20 @@
     line-height: 4.06rem;
     margin-bottom: 60px;
 }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .place__title {
+        font-size: 2.625rem;
+        line-height: 2.75rem;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__title {
+        font-size: 2rem;
+        line-height: 2.125rem;
+        margin-bottom: 2rem;
+        margin-left: 16px;
+    }
+}

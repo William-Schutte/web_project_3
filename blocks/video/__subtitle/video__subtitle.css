@@ -1,3 +1,6 @@
 .video__subtitle {
-    position: absolute;
+    display: flex;
+    font-weight: normal;
+    font-size: .875rem;
+    margin-top: auto;
 }

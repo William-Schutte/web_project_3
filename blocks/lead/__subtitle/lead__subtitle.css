@@ -5,3 +5,22 @@
     margin-bottom: 5rem;
     width: 585px;
 }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .lead__subtitle {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: 3rem;
+        max-width: 375px;
+        
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__subtitle {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-bottom: 2rem;
+        max-width: 300px;
+    }
+}

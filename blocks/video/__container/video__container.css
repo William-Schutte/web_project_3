@@ -4,3 +4,23 @@
     padding: 0 48px;
     justify-content: center;
 }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .video__container {
+        padding: 0;
+        margin: 0 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .video__container {
+        padding: 0;
+        margin: 0 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video__container {
+        flex-direction: column;
+    }
+}
