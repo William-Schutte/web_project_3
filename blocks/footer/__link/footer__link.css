@@ -1,6 +1,26 @@
 .footer__link {
     font-size: 1.5rem;
     line-height: 2.5rem;
-    margin-right: 26px;
+    margin-right: 37px;
     color: #FFFFFF;
+    transition: opacity .2s linear;
+}
+
+.footer__link:hover {
+    opacity: .5;
+}
+
+@media screen and (min-width: 501px) and (max-width: 1024px) {
+    .footer__link {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer__link {
+        font-size: 1.5rem;
+        line-height: 2.625rem;
+        margin-bottom: 32px;
+    }
 }

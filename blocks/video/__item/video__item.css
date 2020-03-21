@@ -3,6 +3,11 @@
     flex-direction: column;
     max-width: 50%;
     position: relative;
+    /* border-radius: 1.5%; */
+    transition: background-color .2s linear;
+}
+
+.video__item:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 

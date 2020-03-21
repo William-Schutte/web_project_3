@@ -1,5 +1,28 @@
 .cover__background {
     display: flex;
+    /* position: absolute; */
     width: 100%;
     max-width: 1184px;
+    z-index: -1;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cover__background {
+        min-height: 500px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .cover__background {
+        min-height: 300px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__background {
+        min-height: 272px;
+        object-fit: cover;
+    }
 }

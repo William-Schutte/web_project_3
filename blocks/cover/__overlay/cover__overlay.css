@@ -1,9 +1,0 @@
-.cover__overlay {
-    position: absolute;
-    display: flex;
-    height: fit-content;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    height: calc(70% - 80px);
-}

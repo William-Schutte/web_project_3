@@ -27,7 +27,8 @@ a {
 
 
 /* Responsive Media Dimensions */
-/*
+/* Most responsive elements follow these guidelines. However, some are slightly adjusted
+    due to item dimensions, font-sizes, and page-width restrictions.
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
@@ -38,7 +39,7 @@ a {
 }
 
 @media screen and (max-width: 425px) {
-    
+
 }
 
 */
