@@ -1,20 +1,17 @@
 # Project 3: From Portland to Portland
-
+## Practicum by Yandex
+## William Schutte, 2020
+-----
 ### Overview
-* Intro
-* Figma
-* Images
 
-**Intro**
+This project is the third project for the web-dev course. The purpose of this project is to learn, understand, 
+and incorporate adaptive web-design and layouts into a web-site. This project required working off a design brief 
+on Figma, an online collaborative interface prototyping tool. 
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+The designed page includes adaptive CSS flex-boxes and grid layouts to function properly on mobile devices, tablets, 
+laptops, and desktop monitors. Internally, the site is designed under BEM methodology with a matching file structure. 
 
-**Figma**
+### GitHub Pages Link
 
-* [Link to the project on Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+This page is also available from my GitHub at the following link:
+***https://william-schutte.github.io/web_project_3/***
