@@ -1,6 +1,6 @@
 # Project 3: From Portland to Portland
-## Practicum by Yandex
 ## William Schutte, 2020
+Practicum by Yandex
 -----
 ### Overview
 
@@ -11,7 +11,10 @@ on Figma, an online collaborative interface prototyping tool.
 The designed page includes adaptive CSS flex-boxes and grid layouts to function properly on mobile devices, tablets, 
 laptops, and desktop monitors. Internally, the site is designed under BEM methodology with a matching file structure. 
 
+Finally, the project reinforced fundamental skills in CSS, HTML, Git, and GitHub.
+
 ### GitHub Pages Link
 
 This page is also available from my GitHub at the following link:
+
 ***https://william-schutte.github.io/web_project_3/***
