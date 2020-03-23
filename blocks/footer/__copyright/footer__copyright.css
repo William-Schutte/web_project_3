@@ -2,11 +2,6 @@
     margin-left: auto;
     font-size: 0.875rem;
     line-height: 1.75rem;
-}
-
-@media screen and (max-width: 500px) {
-    .footer__copyright {
-        margin-top: 16px;
-        margin-left: 0;
-    }
+    color: #FFFFFF;
+    text-decoration: none;
 }

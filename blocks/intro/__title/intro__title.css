@@ -3,7 +3,7 @@
     font-weight: 900;
     font-size: 3.375rem;
     line-height: 3.75rem;
-    margin-bottom: 45px;
+    margin: 0 0 45px;
 }
 
 @media screen and (max-width: 425px) {

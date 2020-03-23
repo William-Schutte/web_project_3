@@ -1,13 +1,13 @@
 @import url(./__copyright/footer__copyright.css);
+@import url(./__item/footer__item.css);
 @import url(./__link/footer__link.css);
+@import url(./__links/footer__links.css);
 
 .footer {
-    display: flex;
+    
     max-width: 1184px;
     padding: 0 48px 48px;
-    align-items: flex-end;
-    margin: 0 auto;
-    margin-top: 160px;
+    margin: 160px auto 0;
 }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
@@ -21,7 +21,5 @@
     .footer {
         margin-top: 64px;
         padding: 0 16px 22px;
-        flex-direction: column;
-        align-items: flex-start;
     }
 }

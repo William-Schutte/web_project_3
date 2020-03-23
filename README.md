@@ -25,16 +25,25 @@ This page is also available from my GitHub at the following link:
 ***https://william-schutte.github.io/web_project_3/***
 
 -----
-#### Update Notes 3/22/2020 - After 1st Review
+#### Update Notes 3/23/2020 - After 1st Review
 Empty file .nojekyll is required for use of BEM file naming conventions with GitHub Pages. GitHub Pages will ignore
 filenames beginning with an underscore by default unless .nojekyll is present.
 
-I previously built the page using Reset.CSS to test out this method. Converted back to Normalize.CSS per reviewer 
-recommendation. This also eliminates the use of HTML Tag selectors in the index.CSS file. 
+Fundamental Changes:
+    I previously built the page using Reset.CSS to test out this method. Converted back to Normalize.CSS per reviewer 
+    recommendation. This also eliminates the use of HTML Tag selectors in the index.CSS file. 
+
+    Changed all link-hover animations to a unique, reuseable block/class.
+
+    Grouped similar items using <ul> instead of a series of divs (header, intro, photo-grid, places, footer sections).
+    Wherever items were converted to a list, an additional container class was created.
 
 Smaller Fixes:
-Used <section> tags instead of <div> for main content sections.
-Removed all use of the <br/> tag.
-Removed <em> tag and replaced with styling/classes and <span>.
-Grouped similar items using <ul> instead of a series of divs (header, intro, photo-grid, places sections).
-Renamed photo-grid images to be descriptive rather than numeral.
+    Changed header and footer sections to <header> and <footer> tags.
+    Used <section> tags instead of <div> for main content sections.
+    Removed all use of the <br/> tag.
+    Removed <em> tag and replaced with styling/classes and <span>.
+    Renamed photo-grid images to be descriptive rather than numeral.
+    Added <a> tag around video links and fixed scaling of overlay.
+    Changed video__title elements to <h3>.
+    Changed comment__quote elements to <blockquote>.

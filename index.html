@@ -10,22 +10,25 @@
 <!-- 
     Practicum Web Project 3 - Coded by William Schutte
     Available at https://william-schutte.github.io/web_project_3/
+
+    See update notes in README.md
  -->
+ 
 <body class="page">
 
     <!-- 1st Section - Header -->
     <header class="header">
         <ul class="header__links">
             <li class="header__item">
-                <a class="header__link">
+                <a class="header__link link-animate" href="#">
                     <img class="header__logo" src="./images/logo.svg" alt="Header Site Logo Link">
                 </a>
             </li>
             <li class="header__item">
-                <a class="header__link" href="#">En</a>
+                <a class="header__link link-animate" href="#">En</a>
             </li>
             <li class="header__item">
-                <a class="header__link header__link_inactive" href="#">Es</a>
+                <a class="header__link link-animate header__link_inactive" href="#">Es</a>
             </li>
         </ul>
     </header>
@@ -80,7 +83,7 @@
                 <h2 class="place__title">Maine</h2>
                 <div class="place__url">
                     <p class="place__url-heading">URL</p>
-                    <a class="place__url-link" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1">global.llbean.com</a>    
+                    <a class="place__url-link link-animate" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1">global.llbean.com</a>    
                 </div>
                <img class="place__image" src="./images/maine.jpg" alt="Maine coastal lighthouse">
                 <div class="place__text">
@@ -100,7 +103,7 @@
                 <h2 class="place__title">New Hampshire</h2>
                 <div class="place__url">
                     <p class="place__url-heading">URL</p>
-                    <a class="place__url-link" href="https://www.timberland.com/timberlandpro.html">timberland.com</a>
+                    <a class="place__url-link link-animate" href="https://www.timberland.com/timberlandpro.html">timberland.com</a>
                 </div>
                 <img class="place__image" src="./images/new-hampshire.jpg" alt="New Hampshire valley">
                 <div class="place__text">
@@ -121,7 +124,7 @@
                 <h2 class="place__title">New York</h2>
                 <div class="place__url">
                     <p class="place__url-heading">URL</p>
-                    <a class="place__url-link" href="https://www.ge.com/about-us">ge.com</a>
+                    <a class="place__url-link link-animate" href="https://www.ge.com/about-us">ge.com</a>
                 </div>
                 <img class="place__image" src="./images/new-york.jpg" alt="New York city">
                 <div class="place__text">
@@ -141,7 +144,7 @@
                 <h2 class="place__title">Eria, PA</h2>
                 <div class="place__url">
                     <p class="place__url-heading">URL</p>
-                    <a class="place__url-link" href="https://www.fws.gov/refuge/erie/">www.fws.gov</a>
+                    <a class="place__url-link link-animate" href="https://www.fws.gov/refuge/erie/">www.fws.gov</a>
                 </div>
                 <img class="place__image" src="./images/pennsylvania.jpg" alt="Pennsylvania stream">
                 <div class="place__text">
@@ -164,7 +167,7 @@
                 <h2 class="place__title">Ohio</h2>
                 <div class="place__url">
                     <p class="place__url-heading">URL</p>
-                    <a class="place__url-link" href="http://www.cedarpoint.com">cedarpoint.com</a>
+                    <a class="place__url-link link-animate" href="http://www.cedarpoint.com">cedarpoint.com</a>
                 </div>
                 <img class="place__image" src="./images/pennsylvania.jpg" alt="Pennsylvania stream">
                 <div class="place__text">
@@ -189,22 +192,26 @@
         <p class="content-subtitle">The largest bike-touring event in the world and the most famous geyser of Yellowstone National Park</p>
         <div class="video__container">
             <div class="video__item">
-                <img class="video__item-bg" src="./images/video-bg-iowa.png" alt="Iowa bike race">
-                <div class="video__item-overlay">
-                    <img class="video__icon_play" src="./images/icon_play.svg" alt="Play button">
-                    <p class="video__duration">5 : 27</p>
-                    <p class="video__title">RAGBRAI, Iowa</p>
-                    <p class="video__subtitle">Author: Ryan Van Duzer</p>
-                </div>
+                <a class="video__item-link link-animate" href="#">
+                    <img class="video__item-bg" src="./images/video-bg-iowa.png" alt="Iowa bike race">
+                    <div class="video__item-overlay">
+                        <img class="video__icon_play" src="./images/icon_play.svg" alt="Play button">
+                        <p class="video__duration">5 : 27</p>
+                        <h3 class="video__title">RAGBRAI, Iowa</h3>
+                        <p class="video__subtitle">Author: Ryan Van Duzer</p>
+                    </div>
+                </a>
             </div>
             <div class="video__item">
-                <img class="video__item-bg" src="./images/video-bg-wyoming.png" alt="Old Faithful geyser">
-                <div class="video__item-overlay">
-                    <img class="video__icon_play" src="./images/icon_play.svg" alt="Play button">
-                    <p class="video__duration">2 : 36</p>
-                    <p class="video__title">Old Faitheful Geyser, Wyoming</p>
-                    <p class="video__subtitle">Author: David Ellis</p>
-                </div>
+                <a class="video__item-link link-animate" href="#">
+                    <img class="video__item-bg" src="./images/video-bg-wyoming.png" alt="Old Faithful geyser">
+                    <div class="video__item-overlay">
+                        <img class="video__icon_play" src="./images/icon_play.svg" alt="Play button">
+                        <p class="video__duration">2 : 36</p>
+                        <h3 class="video__title">Old Faitheful Geyser, Wyoming</h3>
+                        <p class="video__subtitle">Author: David Ellis</p>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -216,20 +223,20 @@
         <div class="comments__container">
             <div class="comment">
                 <img class="comment__image" src="./images/beatrice-morrow-cannady.jpg" alt="Beatric Morrow Cannady">
-                <p class="comment__quote">It is the duty of the Negro woman to see that in the home there are histories of her race 
-                    written by Negro historians.</p>
+                <blockquote class="comment__quote">It is the duty of the Negro woman to see that in the home there are histories of her race 
+                    written by Negro historians.</blockquote>
                 <p class="comment__author">Beatrice Morrow Cannady, Portland, Oregon</p>
             </div>
             <div class="comment">
                 <img class="comment__image" src="./images/jane-addams.jpg" alt="Jane Addams">
-                <p class="comment__quote">The good we secure for ourselves is precarious and uncertain, is floating in mid-air, until 
-                    it is secured for all of us and incorporated into our common life.</p>
+                <blockquote class="comment__quote">The good we secure for ourselves is precarious and uncertain, is floating in mid-air, until 
+                    it is secured for all of us and incorporated into our common life.</blockquote>
                 <p class="comment__author">Jane Addams, Cedarville, Illinois</p>
             </div>
             <div class="comment">
                 <img class="comment__image" src="./images/stephen-king.jpg" alt="Stephen King">
-                <p class="comment__quote">Books are the perfect entertainment: no commercials, no batteries, hours of enjoyment for each 
-                    dollar spent.</p>
+                <blockquote class="comment__quote">Books are the perfect entertainment: no commercials, no batteries, hours of enjoyment for each 
+                    dollar spent.</blockquote>
                 <p class="comment__author">Stephen King, born in Portland, Maine</p>
             </div>
         </div>
@@ -242,16 +249,16 @@
         <p class="cover__subtitle">The Main Street of America <br/>
             from Santa Monica, Cal. to Chicago, Ill.<br/>
             within an iframe</p>
-        <!-- </div> -->
     </section>
 
     <!-- 9th Section - Footer -->
-<footer class="footer">
-    <a class="footer__link" href="#">Maps</a>
-    <a class="footer__link" href="#">Weather</a>
-    <a class="footer__link" href="#">Calendar</a>
-    <p class="footer__copyright">&copy; 2020. William Schutte</p>
-</footer>
-
+    <footer class="footer">
+        <ul class= "footer__links">
+            <li class="footer__item link-animate"><a class="footer__link" href="#">Maps</a></li>
+            <li class="footer__item link-animate"><a class="footer__link" href="#">Weather</a></li>
+            <li class="footer__item link-animate"><a class="footer__link" href="#">Calendar</a></li>
+            <li class="footer__item link-animate"><a class="footer__copyright" href="#">&copy; 2020. William Schutte</a></li>
+        </ul>    
+    </footer>
 </body>
 </html>
