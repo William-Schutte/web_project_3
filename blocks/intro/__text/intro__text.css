@@ -1,9 +1,13 @@
+@import url(./_bold/intro__text_bold.css);
+
 .intro__text {
    max-width: 683px;
    font-weight: normal;
    font-size: 14px; 
    line-height: 1.5rem;
-   margin-bottom: 20px
+   margin: 0 0 20px;
+   padding: 0;
+   list-style: none;
 }
 
 @media screen and (max-width: 425px) {

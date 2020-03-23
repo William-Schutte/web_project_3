@@ -1,0 +1,10 @@
+.header__item {
+    margin-left: 18px;
+    display: flex;
+    height: 100%;
+}
+
+.header__item:first-of-type {
+    margin-right: auto;
+    margin-left: 0;
+}

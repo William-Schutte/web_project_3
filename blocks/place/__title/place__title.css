@@ -2,7 +2,16 @@
     font-weight: 900;
     font-size: 4.5rem;
     line-height: 4.06rem;
-    margin-bottom: 60px;
+    margin: 0 60px 40px 0;
+    grid-area: title;
+    max-width: calc(100% - 40px);
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .place__title {
+        font-size: 3.25rem;
+        line-height: 3.325rem;
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {

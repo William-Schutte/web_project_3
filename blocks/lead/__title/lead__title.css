@@ -1,8 +1,9 @@
 .lead__title {
     font-weight: 900;
     font-size: 6rem;
+    line-height: 97%;
     text-align: center;
-    width: 720px;
+    max-width: 720px;
     margin-bottom: 3rem;
 }
 
@@ -11,6 +12,7 @@
         font-size: 3.5rem;
         line-height: 3.75rem;
         margin-bottom: 2rem;
+        max-width: 460px;
     }
 }
 
@@ -19,5 +21,6 @@
         font-size: 2.5rem;
         line-height: 2.75rem;
         margin-bottom: 1.25rem;
+        max-width: 325px;
     }
 }

@@ -5,11 +5,5 @@
 .comment {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.5rem;
-}
-
-@media screen and (max-width: 768px) {
-    .comment {
-        margin-bottom: 0;
-    }
+    margin: 0;
 }

@@ -1,20 +1,19 @@
-@import url(./_current/header__lang_current.css);
+@import url(./_inactive/header__link_inactive.css);
 
-.header__lang {
+.header__link {
     font-family: Inter;
     font-size: 1.5rem;
-    margin-left: 18px;
-    display: flex;
     color: #FFFFFF;
     transition: opacity .2s linear;
+    align-self: flex-end;
 }
 
-.header__lang:hover {
+.header__link:hover {
     opacity: .5;
 }
 
 @media screen and (max-width: 768px) {
-    .header__lang {
+    .header__link {
         font-size: 1.125rem;
     }
 }

@@ -1,14 +1,19 @@
 @import url(./__image/place__image.css);
 @import url(./__paragraph/place__paragraph.css);
+@import url(./__text/place__text.css);
 @import url(./__title/place__title.css);
 @import url(./__url-heading/place__url-heading.css);
+@import url(./__url-link/place__url-link.css);
 @import url(./__url/place__url.css);
 
 .place {
     display: grid;
     margin-top: 4.5rem;
-    grid-template-columns: [left] 1fr [right] 1fr;
-    grid-template-rows: [top] auto [bottom] auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "title  url"
+    "image  text";
 }
 
 .place:first-of-type {
@@ -20,5 +25,9 @@
         margin-top: 60px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, auto);
+        grid-template-areas: 
+        "title"
+        "image"
+        "text";
     }
 }

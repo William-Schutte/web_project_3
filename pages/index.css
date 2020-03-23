@@ -1,6 +1,5 @@
-@import url(../vendor/reset.css);
-@import url(../vendor/fonts/inter.css);
-
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
@@ -15,15 +14,6 @@
 @import url(../blocks/comment/comment.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
-
-em {
-    font-weight: bold;
-}
-
-a {
-    text-decoration: none;
-}
-
 
 
 /* Responsive Media Dimensions */

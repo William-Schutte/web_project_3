@@ -1,18 +1,7 @@
 .place__url {
-    font-size: 1.125rem;
-    line-height: 1.875rem;
-    text-decoration: underline;
-    letter-spacing: normal;
-    color: #FFFFFF;
-    transition: opacity .2s linear;
-}
-
-.place__url:hover {
-    opacity: .5;
-}
-
-@media screen and (max-width: 425px) {
-    .place__url {
-        display: none;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-area: url;
+    margin-bottom: 60px;
 }

@@ -4,6 +4,7 @@
     margin-right: 37px;
     color: #FFFFFF;
     transition: opacity .2s linear;
+    text-decoration: none;
 }
 
 .footer__link:hover {

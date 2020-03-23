@@ -4,9 +4,7 @@
     line-height: 1.25rem;
     letter-spacing: 0.2rem;
     color: #AAAAAA;
-    margin-left: 0.5rem;
-    margin-bottom: 60px;
-    align-self: end;
+    margin-bottom: 12px;
 }
 
 @media screen and (max-width: 425px) {
