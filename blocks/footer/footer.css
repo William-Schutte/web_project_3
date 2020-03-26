@@ -4,10 +4,10 @@
 @import url(./__links/footer__links.css);
 
 .footer {
-    
     max-width: 1184px;
     padding: 0 48px 48px;
     margin: 160px auto 0;
+    display: flex;
 }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
@@ -21,5 +21,6 @@
     .footer {
         margin-top: 64px;
         padding: 0 16px 22px;
+        flex-direction: column;
     }
 }

@@ -5,9 +5,13 @@
     grid-area: image;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .place__image {
-        width: 100%;
+        width: 100vw;
+        margin-right: 0;
         margin-bottom: 24px;
+        overflow: visible;
+        position: relative;
+        left: -16px;
     }
 }

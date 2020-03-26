@@ -1,21 +1,21 @@
 .footer__link {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+    font-size: 24px;
+    line-height: 41px;
+    font-weight: normal;
     color: #FFFFFF;
     text-decoration: none;
 }
 
-@media screen and (min-width: 501px) and (max-width: 1024px) {
+@media screen and (min-width: 501px) and (max-width: 768px) {
     .footer__link {
-        font-size: 1rem;
-        line-height: 1.625rem;
+        font-size: 16px;
+        line-height: 27px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .footer__link {
-        font-size: 1.5rem;
-        line-height: 2.625rem;
-        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 100%;
     }
 }

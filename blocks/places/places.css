@@ -3,17 +3,17 @@
 .places {
     max-width: 986px;
     margin: 0 auto;
-    padding: 0 3rem;
+    padding: 0 48px;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 501px) and (max-width: 768px) {
     .places {
-        padding: 0 1.5rem;
+        padding: 0 24px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .places {
-        padding: 0;
+        padding: 0 16px;
     }
 }

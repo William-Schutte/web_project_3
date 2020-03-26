@@ -3,4 +3,19 @@
     width: 100%;
     position: relative;
     z-index: -1;
+    height: 323px;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .video__item-bg {
+        height: 288px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__item-bg {
+        max-height: 200px;
+        max-width: 353px;
+    }
 }

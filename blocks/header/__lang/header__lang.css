@@ -1,0 +1,15 @@
+.header__lang {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+    align-self: flex-end;
+    height: 100%;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    .header__lang {
+        font-size: 1.125rem;
+        line-height: 17px;
+    }
+}

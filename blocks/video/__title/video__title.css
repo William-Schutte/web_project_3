@@ -1,22 +1,18 @@
 .video__title {
     font-weight: 900;
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 36px;
+    line-height: 39px;
     text-align: left;
     max-width: 322px;
-    height: 4.5rem;
+    max-height: 73px;
     margin: 0;
 }
 
 
 @media screen and (max-width: 1000px) {
     .video__title {
-        font-size: 1.5rem;
-        line-height: 1.625rem;
-        height: 3rem;
+        font-size: 24px;
+        line-height: 26px;
+        height: min-content;
     }
-}
-
-@media screen and (max-width: 425px) {
-    
 }

@@ -1,7 +1,16 @@
 .footer__copyright {
     margin-left: auto;
-    font-size: 0.875rem;
-    line-height: 1.75rem;
+    font-size: 14px;
+    line-height: 20px;
     color: #FFFFFF;
     text-decoration: none;
+    text-align: right;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 500px) {
+    .footer__copyright {
+        margin-left: 0;
+       align-self: flex-start;
+    }
 }

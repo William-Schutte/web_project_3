@@ -1,24 +1,28 @@
+@import url(./__bold/intro__bold.css);
+@import url(./__list/intro__list.css);
 @import url(./__subtitle/intro__subtitle.css);
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
 
 .intro {
     max-width: 985px;
-    margin: 0 auto 82px;
+    margin: 0 auto 100px;
     padding: 0 48px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 501px) and (max-width: 768px) {
     .intro {
         padding: 0 24px;
+        margin-bottom: 92px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .intro {
         padding: 0 16px;
+        margin-bottom: 72px;
     }
 }

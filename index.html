@@ -17,18 +17,16 @@
 <body class="page">
 
     <!-- 1st Section - Header -->
-    <header class="header">
+    <header class="header">        
+        <a class="header__link link-animate" href="#" target="_blank">
+            <img class="header__logo" src="./images/logo.svg" alt="Header Site Logo Link">
+        </a>
         <ul class="header__links">
             <li class="header__item">
-                <a class="header__link link-animate" href="#">
-                    <img class="header__logo" src="./images/logo.svg" alt="Header Site Logo Link">
-                </a>
+                <a class="header__lang link-animate header__lang_active" href="#">En</a>
             </li>
             <li class="header__item">
-                <a class="header__link link-animate" href="#">En</a>
-            </li>
-            <li class="header__item">
-                <a class="header__link link-animate header__link_inactive" href="#">Es</a>
+                <a class="header__lang link-animate" href="#">Es</a>
             </li>
         </ul>
     </header>
@@ -50,11 +48,11 @@
             by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and 
             accomplish 3 monumental missions. Partying and taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate 
             polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.</p>
-        <ul class="intro__text">
-            <li><span class="intro__text_bold">Distance (miles)</span> 3,644</li>
-            <li><span class="intro__text_bold">Travel time (days)</span> 22</li>
-            <li><span class="intro__text_bold">Highest point (feet)</span> 9,613</li>
-            <li><span class="intro__text_bold">Lowest point (feet)</span> -3</li>
+        <ul class="intro__list">
+            <li><span class="intro__bold">Distance (miles)</span> 3,644</li>
+            <li><span class="intro__bold">Travel time (days)</span> 22</li>
+            <li><span class="intro__bold">Highest point (feet)</span> 9,613</li>
+            <li><span class="intro__bold">Lowest point (feet)</span> -3</li>
         </ul>
     </section>
 
@@ -169,7 +167,7 @@
                     <p class="place__url-heading">URL</p>
                     <a class="place__url-link link-animate" href="http://www.cedarpoint.com">cedarpoint.com</a>
                 </div>
-                <img class="place__image" src="./images/pennsylvania.jpg" alt="Pennsylvania stream">
+                <img class="place__image" src="./images/ohio.jpg" alt="Ohio wind turbine">
                 <div class="place__text">
                     <p class="place__paragraph">
                         From the college capital of Columbus to the clean coastline of Cleveland, Ohio is a truly hidden gem. Earthquakes are 
@@ -190,75 +188,78 @@
     <section class="video">
         <h2 class="content-title">Cycling & Spouting</h2>
         <p class="content-subtitle">The largest bike-touring event in the world and the most famous geyser of Yellowstone National Park</p>
-        <div class="video__container">
-            <div class="video__item">
-                <a class="video__item-link link-animate" href="#">
+        <ul class="video__container">
+            <li class="video__item">
+                <a class="video__item-link link-animate" href="https://www.youtube.com/watch?v=2eCG6Ozz-oE" target="_blank">
                     <img class="video__item-bg" src="./images/video-bg-iowa.png" alt="Iowa bike race">
                     <div class="video__item-overlay">
-                        <img class="video__icon_play" src="./images/icon_play.svg" alt="Play button">
+                        <img class="video__icon-play" src="./images/icon_play.svg" alt="Play button">
                         <p class="video__duration">5 : 27</p>
                         <h3 class="video__title">RAGBRAI, Iowa</h3>
                         <p class="video__subtitle">Author: Ryan Van Duzer</p>
                     </div>
                 </a>
-            </div>
-            <div class="video__item">
-                <a class="video__item-link link-animate" href="#">
+            </li>
+            <li class="video__item">
+                <a class="video__item-link link-animate" href="https://youtu.be/4mZY7uxb7Gc" target="_blank">
                     <img class="video__item-bg" src="./images/video-bg-wyoming.png" alt="Old Faithful geyser">
                     <div class="video__item-overlay">
-                        <img class="video__icon_play" src="./images/icon_play.svg" alt="Play button">
+                        <img class="video__icon-play" src="./images/icon_play.svg" alt="Play button">
                         <p class="video__duration">2 : 36</p>
                         <h3 class="video__title">Old Faitheful Geyser, Wyoming</h3>
                         <p class="video__subtitle">Author: David Ellis</p>
                     </div>
                 </a>
-            </div>
-        </div>
+            </li>
+        </ul>
     </section>
 
     <!-- 7th Section - Comments -->
     <section class="comments">
         <h2 class="content-title">Three influential people</h2>
         <p class="content-subtitle">These 3 Americans have each impacted the world in very individual ways</p>
-        <div class="comments__container">
-            <div class="comment">
+        <ul class="comments__container">
+            <li class="comment">
                 <img class="comment__image" src="./images/beatrice-morrow-cannady.jpg" alt="Beatric Morrow Cannady">
                 <blockquote class="comment__quote">It is the duty of the Negro woman to see that in the home there are histories of her race 
                     written by Negro historians.</blockquote>
                 <p class="comment__author">Beatrice Morrow Cannady, Portland, Oregon</p>
-            </div>
-            <div class="comment">
+            </li>
+            <li class="comment">
                 <img class="comment__image" src="./images/jane-addams.jpg" alt="Jane Addams">
                 <blockquote class="comment__quote">The good we secure for ourselves is precarious and uncertain, is floating in mid-air, until 
                     it is secured for all of us and incorporated into our common life.</blockquote>
                 <p class="comment__author">Jane Addams, Cedarville, Illinois</p>
-            </div>
-            <div class="comment">
+            </li>
+            <li class="comment">
                 <img class="comment__image" src="./images/stephen-king.jpg" alt="Stephen King">
                 <blockquote class="comment__quote">Books are the perfect entertainment: no commercials, no batteries, hours of enjoyment for each 
                     dollar spent.</blockquote>
                 <p class="comment__author">Stephen King, born in Portland, Maine</p>
-            </div>
-        </div>
+            </li>
+        </ul>
     </section>
 
     <!-- 8th Section - Cover -->
     <section class="cover">
-        <img class="cover__background" src="./images/route-66.jpg" alt="Route 66">
-        <h2 class="cover__title">Historic Route 66</h2>
-        <p class="cover__subtitle">The Main Street of America <br/>
-            from Santa Monica, Cal. to Chicago, Ill.<br/>
-            within an iframe</p>
+        <a class="cover__link link-animate">
+            <img class="cover__background" src="./images/route-66.jpg" alt="Route 66">
+            <h2 class="cover__title">Historic Route 66</h2>
+            <p class="cover__subtitle">The Main Street of America <br/>
+                from Santa Monica, Cal. to Chicago, Ill.<br/>
+                within an iframe</p>
+        </a>
+        
     </section>
 
     <!-- 9th Section - Footer -->
     <footer class="footer">
         <ul class= "footer__links">
-            <li class="footer__item link-animate"><a class="footer__link" href="#">Maps</a></li>
-            <li class="footer__item link-animate"><a class="footer__link" href="#">Weather</a></li>
-            <li class="footer__item link-animate"><a class="footer__link" href="#">Calendar</a></li>
-            <li class="footer__item link-animate"><a class="footer__copyright" href="#">&copy; 2020. William Schutte</a></li>
-        </ul>    
+            <li class="footer__item link-animate"><a class="footer__link" href="#" target="_blank">Maps</a></li>
+            <li class="footer__item link-animate"><a class="footer__link" href="#" target="_blank">Weather</a></li>
+            <li class="footer__item link-animate"><a class="footer__link" href="#" target="_blank">Calendar</a></li>
+        </ul>
+        <a class="footer__copyright link-animate" href="#" target="_blank">&copy; 2020. William Schutte</a>
     </footer>
 </body>
 </html>

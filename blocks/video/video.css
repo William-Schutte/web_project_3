@@ -1,6 +1,6 @@
 @import url(./__container/video__container.css);
 @import url(./__duration/video__duration.css);
-@import url(./__icon_play/video__icon_play.css);
+@import url(./__icon_play/video__icon-play.css);
 @import url(./__item/video__item.css);
 @import url(./__item-bg/video__item-bg.css);
 @import url(./__item-link/video__item-link.css);
@@ -9,8 +9,22 @@
 @import url(./__title/video__title.css);
 
 .video {
-    margin: 100px auto;
+    margin: 100px auto 0;
+    padding: 0 48px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .video {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .video {
+        margin-top: 72px;
+        padding: 0 16px;
+    }
 }

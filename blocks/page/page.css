@@ -2,7 +2,7 @@
     background-color: #2a2c2f;
     width: 100%;
     align-items: center;
-    font-family: 'Inter', 'Arial';
+    font-family: 'Inter', 'Arial', sans-serif;
     color: #FFFFFF;
     text-rendering: optimizeLegibility;
 }

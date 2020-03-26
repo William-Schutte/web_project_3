@@ -7,16 +7,15 @@
     margin: 0 auto 72px;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 501px) and (max-width: 768px) {
     .content-subtitle {
-        margin: 0 1.5rem 3.5rem;
+        margin-bottom: 56px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .content-subtitle {
-        font-size: 1rem;
-        line-height: 1.5rem;
-        margin: 0 1rem 1.5rem;
+        font-size: 16px;
+        line-height: 23px;
     }
 }
