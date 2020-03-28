@@ -4,9 +4,3 @@
     flex-direction: column;
     max-width: 100%;
 }
-
-@media screen and (max-width: 500px) {
-    .place__text {
-        max-width: calc(100% - 32px);
-    }
-}
