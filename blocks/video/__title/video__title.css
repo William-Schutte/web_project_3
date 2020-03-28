@@ -4,12 +4,20 @@
     line-height: 39px;
     text-align: left;
     max-width: 322px;
-    max-height: 73px;
+    min-height: 73px;
     margin: 0;
 }
 
 
 @media screen and (max-width: 1000px) {
+    .video__title {
+        font-size: 24px;
+        line-height: 26px;
+        min-height: min-content;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .video__title {
         font-size: 24px;
         line-height: 26px;

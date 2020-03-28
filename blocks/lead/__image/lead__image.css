@@ -2,3 +2,9 @@
     max-width: 100%;
     display: flex;
 }
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        max-width: 100%;
+    }
+}

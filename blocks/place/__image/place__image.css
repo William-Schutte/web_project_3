@@ -10,8 +10,5 @@
         width: 100vw;
         margin-right: 0;
         margin-bottom: 24px;
-        overflow: visible;
-        position: relative;
-        left: -16px;
     }
 }

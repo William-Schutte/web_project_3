@@ -1,6 +1,5 @@
 .cover__background {
     display: flex;
-    position: absolute;
     width: 100%;
     max-width: 1184px;
     z-index: -1;
@@ -31,4 +30,4 @@
     .cover__background {
         max-height: 216px;
     }
-}
+} 

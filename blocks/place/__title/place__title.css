@@ -2,33 +2,33 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 65px;
-    margin: 0 40px 60px 0;
+    margin: auto 40px 60px 0;
     grid-area: title;
     max-width: calc(100% - 40px);
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .place__title {
-        font-size: 3.25rem;
-        line-height: 3.325rem;
-        margin: 0 32px 60px 0;
+        margin: auto 32px 50px 0;
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 501px) and (max-width: 768px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
-        margin-bottom: 40px;
+        margin-top: auto;
+        margin-bottom: 55px;
         max-width: 340px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .place__title {
         font-size: 32px;
         line-height: 35px;
         margin: 0 16px 32px 0;
-        max-width: 343px;        
+        max-width: 343px;
+        padding: 0 16px;
     }
 }

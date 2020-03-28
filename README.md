@@ -25,6 +25,24 @@ This page is also available from my GitHub at the following link:
 ***https://william-schutte.github.io/web_project_3/***
 
 -----
+#### Update Notes 3/27/2020 - After 3rd Review
+
+##### Fixes:
+    Removed target="_blank" for on-site header nav link.
+    Added target="_blank" attribute to off-site links.
+    Moved animate class from <li> to nested <a> tag in footer.
+    Fixed margin-bottom on content-subtitle for lower resolutions
+    Added top margin to comments__container at low resolutions to create 44px gap between content-subtitle.
+    Fixed margins on header at 320px resolution.
+    Change spacing units on lead__caption to em.
+    Adjusted padding/margins of lead section to get correct image resolution at 1024px.
+    Fixed place__image positioning by moving margins/padding from section to individual elements.
+    Fixed place__title positioning in 2x2 grid layout at 768px resolution.
+    Removed video__icon-play folder and file, empty rule.
+    Replaced use of max-height for video__title with min-height.
+    Swapped Cover section positioning. Background is now default, text is absolute positioned.
+
+-----
 
 #### Update Notes 3/25/2020 - After 2nd Review
 

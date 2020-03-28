@@ -6,3 +6,9 @@
     margin-top: auto;
     margin-bottom: 12px;
 }
+
+@media screen and (max-width: 768px) {
+    .video__duration {
+        margin-bottom: 8px;
+    }
+}

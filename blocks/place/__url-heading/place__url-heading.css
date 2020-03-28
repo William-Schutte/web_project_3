@@ -4,7 +4,7 @@
     line-height: 1.25rem;
     letter-spacing: 0.2rem;
     color: #AAAAAA;
-    margin-bottom: 12px;
+    margin: 0 0 12px;
 }
 
 @media screen and (max-width: 500px) {
