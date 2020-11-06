@@ -2,6 +2,9 @@
 ## William Schutte, 2020
 Practicum by Yandex
 -----
+View this project here:
+***https://william-schutte.github.io/web_project_3/***
+
 ### Overview
 This project is the third project for the web-dev course. The purpose of this project is to learn, understand, 
 and incorporate adaptive web-design and layouts into a web-site. This project required working off a design brief 
@@ -17,12 +20,6 @@ Finally, the project reinforced fundamental skills in CSS, HTML, Git, and GitHub
 Structured with HTML, styled with CSS, updated with Git, reviewed via GitHub, and presented through GitHub Pages.
 Project brief was provided through Figma, communicating dimensions, fonts, font-sizes, colors, images, and general 
 page layout. 
-
-### GitHub Pages Link
-
-This page is also available from my GitHub at the following link:
-
-***https://william-schutte.github.io/web_project_3/***
 
 -----
 #### Update Notes 3/27/2020 - After 3rd Review
